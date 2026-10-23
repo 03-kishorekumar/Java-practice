@@ -35,7 +35,7 @@ public class remove_duplicate_elements {
             }
         }
 
-        System.out.println(uniquecolor);
+        System.out.println( "After removing duplicates: " + uniquecolor);
 
     }
 }

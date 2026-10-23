@@ -1,5 +1,3 @@
-package ArrayList_Programs;
-
 import java.util.*;
 
 public class move_zeros_end {

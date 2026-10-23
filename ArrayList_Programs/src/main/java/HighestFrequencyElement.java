@@ -1,10 +1,10 @@
-package ArrayList_Programs;
 
 import java.util.*;
 
 public class HighestFrequencyElement {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         List<Integer> list = Arrays.asList(12, 3, 4, 5, 5, 67); // immutable
         Integer sec = list.stream().
                 sorted(Comparator.reverseOrder())

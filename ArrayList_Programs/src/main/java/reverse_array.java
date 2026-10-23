@@ -1,4 +1,4 @@
-package ArrayList_Programs;
+
 
 import java.util.*;
 
@@ -21,7 +21,7 @@ public class reverse_array {
             array[i] = sc.nextInt();
         }
 
-        System.out.println("the elements are :" + array);
+        System.out.println("the elements are :" + Arrays.toString(array));
 
         for(int i=0;i<array.length/2;i++)
         {

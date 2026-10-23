@@ -1,4 +1,3 @@
-package ArrayList_Programs;
 
 import java.util.*;
 
@@ -22,13 +21,13 @@ public class largest_number_array {
             array[i] = sc.nextInt();
         }
 
-        System.out.println(" The elements are : " + array);
+        System.out.println(" The elements are : " + Arrays.toString(array));
 
         int max = array[0];
 
         for(int nums : array)
         {
-            if(max<nums)
+            if(nums > max)
             {
                 max = nums;
             }
